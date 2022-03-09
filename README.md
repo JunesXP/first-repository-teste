@@ -4,3 +4,5 @@ Espero que dê certo :)))
 como se não fosse um estado de espírito e sim um 
 quarto onde eu pudesse me refugiar e ser quem eu
 realmente era. " ~Cherryl Strayed
+
+Tarefas todas feitas **OK**
