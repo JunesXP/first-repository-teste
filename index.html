@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,13 +8,44 @@
     <title>Meu primeiro bootstrap</title>
     <link rel="stylesheet" href="css/bootstrap.css">
 </head>
+
 <body>
     <div class="container">
         <div class="row">
-            <div class="col-12 col-sm-9 col-md-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda vero eveniet voluptates facilis quo? Illo dolores rerum cupiditate non assumenda quidem consectetur, adipisci libero pariatur a reiciendis aperiam sint nesciunt?</div>
+            <div class="col-12 col-sm-9 col-md-6 mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda vero eveniet voluptates facilis quo? Illo dolores rerum cupiditate non assumenda quidem consectetur, adipisci libero pariatur a reiciendis aperiam sint nesciunt?</div>
         </div>
     </div>
-   <script src="js/jquery-3.6.0.min"></script>
-   <script src="js/bootstrap.js"></script>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark bg-transparent shadow fixed-top">
+        <a class="navbar-brand">
+            <img class="img-thumbnail" src="nav.png" alt="logo">
+        </a>
+        <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="my-nav" class="collapse navbar-collapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item ">
+                    <a class="nav-link" href="#">Home </a>
+                </li>
+                <a class="nav-link" href="#"> Sobre nós</a>
+                </li>
+                <a class="nav-link" href="#"> Contato </a>
+                </li>
+                <a class="nav-link" href="#"> Ajude </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#"></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="jumbotron jumbotron-fluid bg-eu">
+
+    </div>
+    <script src="js/jquery-3.6.0.min"></script>
+    <script src="js/bootstrap.js"></script>
 </body>
+
 </html>
